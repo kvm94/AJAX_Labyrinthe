@@ -1,0 +1,24 @@
+BG    352x224
+F0    256x192              (-208,0)   (48,0)     (304,0)
+F1    160x128              (-64,16)   (96,16)    (256,16)
+F2     96x80     (-64,32)  (32,32)    (128,32)   (224,32)   (320,32)
+R/L0   48x224              (0,0)                 (304,0)
+R/L1   48x192              (48,0)                (256,0)
+R/L2   32x128              (96,16)               (224,16)
+R/L3   16x80               (128,32)              (208,32)
+RR/LL2 32x96     (0,32)                                     (320,32)
+RR/LL3 48x80     (32,32)                                    (272,32)
+
+
+
+               LL3  L3      R3  RR3   
+               LL2  L2  F2  R2  LL2
+                    L1  F1  R1
+                    L0  F0  R0
+
+
+L/R = mur latéral
+F = mur de face
+Distance 0 et 1, fenêtre de 3 de large
+Distance 2 et 3, fenêtre de 5 de large
+A partir de la  distance 3, le fond n'est plus visible (pas éclairé)

@@ -1,0 +1,12 @@
+/* Fenêtre de jeu */
+
+#view {
+	padding: 0px;
+	border:0px;
+	margin: 0px;
+	position: relative;
+	width:352px;
+	height: 224px;
+	background: url(../img/bg.png) no-repeat;
+	z-index: 0;
+}

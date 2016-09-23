@@ -1,0 +1,49 @@
+<?php
+header('content-type: application/xhtml+xml;charset=utf-8');
+?>
+<!doctype html>
+<html lang="fr">
+	<head>
+		<title>Labyrinthe 0.7</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="JAVASCRIPT/common.js"></script>
+		<script type="text/javascript" src="JAVASCRIPT/staticdata.js"></script>
+		<script type="text/javascript" src="JAVASCRIPT/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/gfx.css" />
+		<link rel="stylesheet" type="text/css" href="CSS/style.css" />
+	</head>
+	<body>
+		<div id="page">
+			<h1>Labyrinthe</h1>
+			<div id="view">
+			</div>
+			<div id="controls">
+				<h2>Controls</h2>
+				<table>
+					<tr>
+						<td>
+							<input type="image" src ="img/turnleft.png"  id="turnleft" 	/>
+						</td>
+						<td>
+							<input type="image" src ="img/movefwd.png"   id="movefwd" 	/>
+						</td>	
+						<td>
+							<input type="image" src ="img/turnright.png" id="turnright" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="image" src ="img/moveleft.png"  id="moveleft" 	/>
+						</td>
+						<td>
+							<input type="image" src ="img/moveback.png"   id="moveback" />
+						</td>	
+						<td>
+							<input type="image" src ="img/moveright.png" id="moveright" />
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

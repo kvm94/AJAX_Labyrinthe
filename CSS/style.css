@@ -1,0 +1,50 @@
+body
+{
+	background-color: 	black;
+}
+#page
+{
+	background-image: 	url('../img/GrayCombTexture.jpg');
+	background-repeat:	repeat-y;
+	width: 				700px;
+	height: 			600px;
+	margin: 			auto;
+	margin-top: 		20px;
+	padding: 			10px;
+}
+h1
+{
+	text-align: 		center;
+	color: 				black;
+	margin-top: 		50px;
+	border: 			solid black 3px;
+	border-radius: 		10px;
+	background-color: 	grey;
+}
+#view
+{
+	margin: 			auto;
+	margin-top: 		30px;
+	border: 			solid black 3px;
+	border-radius: 		10px;
+	overflow: 			hidden;
+}
+#controls
+{
+	height: 			auto;
+	width: 				180px;
+	margin: 			auto;
+	margin-top: 		30px;
+	border: 			solid black 3px;
+	border-radius: 		10px;
+	background-color: 	grey;
+}
+h2
+{
+	text-align: 		center;
+}
+table
+{
+	margin: 			auto;
+	margin-bottom: 		20px;
+}
